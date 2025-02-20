@@ -1,0 +1,93 @@
+{
+    "current_projects": {
+        "pro_series_2024": {
+            "name": "Palas Pro Series 2024",
+            "description": "Nueva línea de Palas profesionales con tecnología avanzada",
+            "status": "en desarrollo",
+            "launch_date": "2024-Q2",
+            "team_lead": "Ana Martínez",
+            "key_features": [
+                "Nuevo núcleo de grafeno",
+                "Sistema de absorción de vibraciones",
+                "Diseño aerodinámico mejorado",
+                "Reducción de peso del 10%"
+            ],
+            "target_market": "Jugadores avanzados y profesionales",
+            "departments_involved": [
+                "research_and_development",
+                "production",
+                "marketing"
+            ]
+        },
+        "eco_friendly_line": {
+            "name": "Línea Eco-friendly",
+            "description": "Primera línea de Palas sostenibles del mercado",
+            "status": "planificación",
+            "launch_date": "2024-Q4",
+            "team_lead": "Carlos Rodríguez",
+            "key_features": [
+                "Materiales reciclados",
+                "Embalaje biodegradable",
+                "Proceso de producción sostenible",
+                "Programa de reciclaje de Palas"
+            ],
+            "target_market": "Jugadores conscientes del medio ambiente",
+            "departments_involved": [
+                "research_and_development",
+                "production",
+                "marketing",
+                "sales"
+            ]
+        }
+    },
+    "planned_projects": {
+        "junior_line": {
+            "name": "Línea Junior PadelTech",
+            "description": "Palas diseñadas específicamente para jugadores jóvenes",
+            "planned_start": "2024-Q3",
+            "estimated_launch": "2025-Q2",
+            "key_objectives": [
+                "Desarrollo de Palas ligeras",
+                "Diseños atractivos para jóvenes",
+                "Precios accesibles",
+                "Programa educativo asociado"
+            ]
+        },
+        "custom_series": {
+            "name": "Serie Personalizable",
+            "description": "Plataforma de personalización de Palas",
+            "planned_start": "2024-Q4",
+            "estimated_launch": "2025-Q3",
+            "key_objectives": [
+                "Sistema de personalización online",
+                "Opciones de diseño único",
+                "Personalización de peso y balance",
+                "Servicio premium de customización"
+            ]
+        }
+    },
+    "research_initiatives": {
+        "new_materials": {
+            "name": "Investigación de Nuevos Materiales",
+            "description": "Exploración de materiales innovadores para Palas",
+            "status": "en curso",
+            "key_areas": [
+                "Materiales compuestos avanzados",
+                "Fibras naturales sostenibles",
+                "Polímeros de alto rendimiento",
+                "Materiales reciclados"
+            ]
+        },
+        "smart_padel": {
+            "name": "Tecnología Smart Pádel",
+            "description": "Desarrollo de tecnología integrada en Palas",
+            "status": "investigación inicial",
+            "key_areas": [
+                "Sensores integrados",
+                "Análisis de rendimiento",
+                "Conectividad móvil",
+                "Feedback en tiempo real"
+            ]
+        }
+    }
+} 

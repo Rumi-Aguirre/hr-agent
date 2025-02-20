@@ -1,0 +1,170 @@
+{
+    "salary_ranges": {
+        "engineering": {
+            "junior_engineer": {
+                "min": 28000,
+                "max": 35000,
+                "currency": "EUR",
+                "bonus": "hasta 10%"
+            },
+            "engineer": {
+                "min": 35000,
+                "max": 45000,
+                "currency": "EUR",
+                "bonus": "hasta 15%"
+            },
+            "senior_engineer": {
+                "min": 45000,
+                "max": 60000,
+                "currency": "EUR",
+                "bonus": "hasta 20%"
+            },
+            "lead_engineer": {
+                "min": 60000,
+                "max": 80000,
+                "currency": "EUR",
+                "bonus": "hasta 25%"
+            }
+        },
+        "production": {
+            "operator": {
+                "min": 22000,
+                "max": 28000,
+                "currency": "EUR",
+                "bonus": "hasta 8%"
+            },
+            "supervisor": {
+                "min": 32000,
+                "max": 42000,
+                "currency": "EUR",
+                "bonus": "hasta 15%"
+            },
+            "quality_control": {
+                "min": 28000,
+                "max": 35000,
+                "currency": "EUR",
+                "bonus": "hasta 12%"
+            }
+        },
+        "sales": {
+            "sales_representative": {
+                "base": {
+                    "min": 25000,
+                    "max": 35000,
+                    "currency": "EUR"
+                },
+                "commission": {
+                    "percentage": "3-5%",
+                    "targets": {
+                        "quarterly": "€150,000",
+                        "annual": "€600,000"
+                    }
+                }
+            },
+            "sales_manager": {
+                "base": {
+                    "min": 45000,
+                    "max": 60000,
+                    "currency": "EUR"
+                },
+                "bonus": {
+                    "percentage": "hasta 30%",
+                    "targets": {
+                        "team_performance": "50%",
+                        "individual_goals": "50%"
+                    }
+                }
+            }
+        },
+        "marketing": {
+            "marketing_specialist": {
+                "min": 28000,
+                "max": 38000,
+                "currency": "EUR",
+                "bonus": "hasta 12%"
+            },
+            "digital_marketing": {
+                "min": 32000,
+                "max": 42000,
+                "currency": "EUR",
+                "bonus": "hasta 15%"
+            },
+            "marketing_manager": {
+                "min": 45000,
+                "max": 65000,
+                "currency": "EUR",
+                "bonus": "hasta 20%"
+            }
+        }
+    },
+    "benefits": {
+        "health": {
+            "medical_insurance": {
+                "coverage": "Completa",
+                "family": true,
+                "dental": true,
+                "vision": true
+            },
+            "life_insurance": {
+                "coverage": "2x salario anual",
+                "disability": true
+            },
+            "wellness": {
+                "gym": "Acceso gratuito",
+                "health_programs": true,
+                "mental_health": true
+            }
+        },
+        "time_off": {
+            "vacation": "23 días laborables",
+            "personal_days": "3 días",
+            "sick_leave": "Según necesidad",
+            "paternity": "16 semanas",
+            "maternity": "16 semanas"
+        },
+        "work_life": {
+            "flexible_hours": true,
+            "remote_work": "2 días/semana",
+            "summer_schedule": "Viernes tarde libre",
+            "birthday": "Día libre"
+        },
+        "development": {
+            "training_budget": "€1,500/año",
+            "conferences": "2/año",
+            "courses": "Ilimitados online",
+            "languages": "Clases gratuitas"
+        },
+        "perks": {
+            "product_discount": "50%",
+            "padel_classes": "Gratuitas",
+            "equipment": "1 Pala/año",
+            "club_access": "Descuentos especiales"
+        }
+    },
+    "bonus_structure": {
+        "company_performance": {
+            "weight": "40%",
+            "metrics": [
+                "EBITDA",
+                "Revenue Growth",
+                "Market Share"
+            ]
+        },
+        "individual_performance": {
+            "weight": "40%",
+            "metrics": [
+                "Objetivos individuales",
+                "Competencias",
+                "Valores"
+            ]
+        },
+        "team_performance": {
+            "weight": "20%",
+            "metrics": [
+                "Objetivos de equipo",
+                "Colaboración",
+                "Innovación"
+            ]
+        }
+    }
+} 

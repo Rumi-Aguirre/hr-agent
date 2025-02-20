@@ -1,0 +1,56 @@
+{
+    "is_complete": true,
+    "user_data": {
+        "first_name": "David",
+        "age": 30,
+        "preferred_schedule": "mañana"
+    },
+    "assigned_position": {
+        "team": "Marketing",
+        "role": "Especialista en Marketing Digital",
+        "department": "marketing"
+    },
+    "conversation": [
+        {
+            "type": "human",
+            "content": ""
+        },
+        {
+            "type": "ai",
+            "content": "¡Hola! Soy Alex del departamento de Recursos Humanos de PadelTech Innovations, líder en innovación de Palas de pádel. En este momento, te hemos asignado al puesto de Especialista en Marketing Digital en el equipo de Marketing. ¿Me podrías decir tu nombre para comenzar?"
+        },
+        {
+            "type": "human",
+            "content": "me llamo david."
+        },
+        {
+            "type": "ai",
+            "content": "¡Hola, David! ¡Bienvenido a PadelTech Innovations, líder en innovación de Palas de pádel. Ahora, ¿podrías confirmarme tu edad para continuar? Soy Alex, del departamento de RRHH. Te hemos asignado al puesto de Especialista en Marketing Digital en el equipo de Marketing. Si tienes alguna pregunta sobre la empresa o el puesto, no dudes en preguntarme. ¡Espero que te sientas cómodo aquí!"
+        },
+        {
+            "type": "human",
+            "content": "¿cuáles son los objetivos de 2024?"
+        },
+        {
+            "type": "ai",
+            "content": "¡Claro! La empresa ha definido los siguientes objetivos estratégicos para el año 2024:\n\n1. Lanzamiento de la línea Pro Series 2024 con nueva tecnología de núcleo, mejoras en durabilidad y reducción del peso.\n\n2. Expansión en mercados internacionales, como España, Brasil y Chile, así como el mercado europeo en el año 2025 (Francia, Italia, Suecia y Portugal).\n\n3. Alcanzar la certificación ISO 14001 de gestión ambiental.\n\n4. Desarrollar la primera línea completa de productos eco-friendly.\n\n5. Fortalecer las alianzas con clubes y academias de pádel."
+        },
+        {
+            "type": "human",
+            "content": "perfecto, gracias."
+        },
+        {
+            "type": "ai",
+            "content": "¡Gracias, David! Me alegra conocerte mejor. ¿Podrías confirmarme tu edad para continuar? En PadelTech Innovations, los requisitos de edad son entre 18 y 80 años. Si tienes alguna pregunta sobre la empresa o el puesto, no dudes en preguntarme. Estoy aquí para ayudarte. ¿Cuál prefieres, mañana o tarde?"
+        },
+        {
+            "type": "human",
+            "content": "tengo 30 años y prefiero trabajar por la mañana."
+        },
+        {
+            "type": "ai",
+            "content": "¡Gracias, David! Esperamos verte en nuestro equipo de Marketing en el puesto de Especialista en Marketing Digital a las mañanas. Si tienes alguna otra pregunta o necesitas algo más antes de comenzar, no dudes en preguntarme. ¡Espero que tengas un excelente día!"
+        }
+    ],
+    "summary": " RESUMEN EJECUTIVO:\nDavid (30 años) ha sido asignado al puesto de Especialista en Marketing Digital en el equipo de Marketing de PadelTech Innovations. David mostró interés en los objetivos estratégicos de la empresa para el año 2024, y confirmó su preferencia para trabajar por la mañana.\n\nDATOS DEL CANDIDATO:\n- Nombre: David\n- Edad: 30\n- Horario preferido: Mañana\n\nPUESTO ASIGNADO:\n- Equipo: Marketing\n- Puesto: Especialista en Marketing Digital\n- Líder: Miguel Torres\n\nINTERÉS Y PREGUNTAS:\nDavid mostró interés en los objetivos estratégicos de la empresa para el año 2024.\n\nOBSERVACIONES:\nEl candidato mostró una actitud positiva y entusiasta durante la conversación.\n\nRECOMENDACIONES:\nDebido a que David es un joven talento en marketing digital, se recomienda que le proporcionen información adicional sobre el equipo de Marketing para que pueda tener una mejor visión del contexto y objetivos que se esperan alcanzar. También podría ser útil realizar un seguimiento cercano de sus actividades en las redes sociales, ya que podría ofrecer insighs adicionales sobre su estilo de trabajo y actitud."
+}

@@ -1,0 +1,70 @@
+{
+    "teams": {
+        "research_and_development": {
+            "name": "Investigación y Desarrollo",
+            "description": "Equipo encargado del diseño e innovación de Palas de pádel",
+            "lead": "Ana Martínez",
+            "members": 12,
+            "roles": [
+                {
+                    "title": "Ingeniero de Materiales",
+                    "openings": 2,
+                    "requirements": ["Experiencia en materiales compuestos", "Conocimiento de fibra de carbono"]
+                },
+                {
+                    "title": "Diseñador de Producto",
+                    "openings": 1,
+                    "requirements": ["Experiencia en diseño deportivo", "Conocimiento de CAD"]
+                }
+            ],
+            "current_projects": ["Palas Pro Series 2024", "Línea Eco-friendly"]
+        },
+        "production": {
+            "name": "Producción",
+            "description": "Equipo responsable de la fabricación de Palas",
+            "lead": "Carlos Rodríguez",
+            "members": 25,
+            "roles": [
+                {
+                    "title": "Supervisor de Producción",
+                    "openings": 1,
+                    "requirements": ["Experiencia en manufactura", "Gestión de equipos"]
+                },
+                {
+                    "title": "Técnico de Control de Calidad",
+                    "openings": 2,
+                    "requirements": ["Atención al detalle", "Conocimiento de estándares ISO"]
+                }
+            ],
+            "shifts": ["mañana", "tarde"]
+        },
+        "sales": {
+            "name": "Ventas",
+            "description": "Equipo de ventas y relaciones con distribuidores",
+            "lead": "Laura Sánchez",
+            "members": 15,
+            "roles": [
+                {
+                    "title": "Representante de Ventas",
+                    "openings": 3,
+                    "requirements": ["Experiencia en ventas deportivas", "Conocimiento del mercado del pádel"]
+                }
+            ],
+            "territories": ["España", "Argentina", "México", "Brasil"]
+        },
+        "marketing": {
+            "name": "Marketing",
+            "description": "Equipo de marketing y comunicación",
+            "lead": "Miguel Torres",
+            "members": 8,
+            "roles": [
+                {
+                    "title": "Especialista en Marketing Digital",
+                    "openings": 1,
+                    "requirements": ["Experiencia en redes sociales", "Conocimiento de SEO"]
+                }
+            ],
+            "channels": ["Social Media", "Eventos Deportivos", "Influencers"]
+        }
+    }
+} 

@@ -1,0 +1,115 @@
+{
+    "roles": {
+        "engineering": {
+            "ingeniero_materiales": {
+                "title": "Ingeniero de Materiales",
+                "department": "research_and_development",
+                "description": "Investigación y desarrollo de nuevos materiales para Palas de pádel",
+                "responsibilities": [
+                    "Investigación de materiales compuestos",
+                    "Pruebas de resistencia y durabilidad",
+                    "Optimización de materiales",
+                    "Documentación técnica"
+                ],
+                "requirements": {
+                    "education": "Ingeniería de Materiales o similar",
+                    "experience": "3+ años en desarrollo de productos deportivos",
+                    "skills": [
+                        "Conocimiento de materiales compuestos",
+                        "Experiencia en fibra de carbono",
+                        "Metodologías de prueba",
+                        "Software de simulación"
+                    ]
+                },
+                "career_path": [
+                    "Ingeniero Senior de Materiales",
+                    "Líder de Investigación",
+                    "Director de I+D"
+                ]
+            }
+        },
+        "production": {
+            "supervisor_produccion": {
+                "title": "Supervisor de Producción",
+                "department": "production",
+                "description": "Supervisión de la línea de producción de Palas",
+                "responsibilities": [
+                    "Gestión del equipo de producción",
+                    "Control de calidad",
+                    "Optimización de procesos",
+                    "Gestión de inventario"
+                ],
+                "requirements": {
+                    "education": "Ingeniería Industrial o similar",
+                    "experience": "5+ años en manufactura",
+                    "skills": [
+                        "Gestión de equipos",
+                        "Lean Manufacturing",
+                        "Control de calidad",
+                        "Planificación de producción"
+                    ]
+                },
+                "shifts": ["mañana", "tarde"],
+                "career_path": [
+                    "Gerente de Producción",
+                    "Director de Operaciones"
+                ]
+            }
+        },
+        "sales": {
+            "representante_ventas": {
+                "title": "Representante de Ventas",
+                "department": "sales",
+                "description": "Venta y promoción de Palas de pádel",
+                "responsibilities": [
+                    "Gestión de cuentas clave",
+                    "Desarrollo de nuevos clientes",
+                    "Presentaciones de producto",
+                    "Reportes de ventas"
+                ],
+                "requirements": {
+                    "education": "Grado en Administración o similar",
+                    "experience": "2+ años en ventas deportivas",
+                    "skills": [
+                        "Conocimiento del mercado del pádel",
+                        "Habilidades de negociación",
+                        "CRM",
+                        "Presentaciones efectivas"
+                    ]
+                },
+                "territories": ["España", "Argentina", "México", "Brasil"],
+                "career_path": [
+                    "Gerente de Cuentas Clave",
+                    "Director Regional de Ventas"
+                ]
+            }
+        },
+        "marketing": {
+            "especialista_marketing": {
+                "title": "Especialista en Marketing Digital",
+                "department": "marketing",
+                "description": "Gestión de marketing digital y redes sociales",
+                "responsibilities": [
+                    "Gestión de redes sociales",
+                    "Campañas digitales",
+                    "Análisis de métricas",
+                    "Contenido digital"
+                ],
+                "requirements": {
+                    "education": "Marketing o Comunicación",
+                    "experience": "3+ años en marketing digital",
+                    "skills": [
+                        "Redes sociales",
+                        "SEO/SEM",
+                        "Analytics",
+                        "Creación de contenido"
+                    ]
+                },
+                "career_path": [
+                    "Gerente de Marketing Digital",
+                    "Director de Marketing"
+                ]
+            }
+        }
+    }
+} 

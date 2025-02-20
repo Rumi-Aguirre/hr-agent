@@ -1,0 +1,163 @@
+{
+    "company_name": "PadelTech Innovations",
+    "headquarters": "Valencia, España",
+    "founded": 2020,
+    "employees": 120,
+    "leadership": {
+        "executive_team": {
+            "CEO": {
+                "name": "Ana García Martínez",
+                "background": "20+ años en la industria deportiva",
+                "focus_areas": ["Estrategia", "Innovación", "Crecimiento Internacional"]
+            },
+            "CTO": {
+                "name": "Miguel Torres Ruiz",
+                "background": "PhD en Ingeniería de Materiales",
+                "focus_areas": ["I+D", "Innovación Tecnológica", "Sostenibilidad"]
+            },
+            "COO": {
+                "name": "Carlos Navarro López",
+                "background": "15+ años en operaciones manufactureras",
+                "focus_areas": ["Producción", "Cadena de Suministro", "Calidad"]
+            },
+            "CMO": {
+                "name": "Laura Fernández Sanz",
+                "background": "MBA, 12 años en marketing deportivo",
+                "focus_areas": ["Marketing Digital", "Expansión de Marca", "Estrategia Comercial"]
+            }
+        }
+    },
+    "departments": {
+        "research_development": {
+            "name": "Investigación y Desarrollo",
+            "director": "Dr. Elena Ramírez",
+            "teams": [
+                {
+                    "name": "Diseño de Producto",
+                    "lead": "Pablo Moreno",
+                    "size": 8
+                },
+                {
+                    "name": "Materiales Avanzados",
+                    "lead": "Dra. Isabel Santos",
+                    "size": 6
+                },
+                {
+                    "name": "Pruebas y Prototipos",
+                    "lead": "Jorge Mendoza",
+                    "size": 5
+                }
+            ]
+        },
+        "production": {
+            "name": "Producción",
+            "director": "Roberto Herrera",
+            "teams": [
+                {
+                    "name": "Fabricación",
+                    "lead": "María Jiménez",
+                    "size": 25
+                },
+                {
+                    "name": "Control de Calidad",
+                    "lead": "Antonio Ruiz",
+                    "size": 8
+                },
+                {
+                    "name": "Logística",
+                    "lead": "Carmen Ortiz",
+                    "size": 12
+                }
+            ]
+        },
+        "sales": {
+            "name": "Ventas",
+            "director": "David Sánchez",
+            "teams": [
+                {
+                    "name": "Ventas Nacionales",
+                    "lead": "Lucía Martín",
+                    "size": 15
+                },
+                {
+                    "name": "Ventas Internacionales",
+                    "lead": "Javier Pérez",
+                    "size": 10
+                },
+                {
+                    "name": "Servicio al Cliente",
+                    "lead": "Sara López",
+                    "size": 8
+                }
+            ]
+        },
+        "marketing": {
+            "name": "Marketing",
+            "director": "Patricia Vega",
+            "teams": [
+                {
+                    "name": "Marketing Digital",
+                    "lead": "Diego Torres",
+                    "size": 6
+                },
+                {
+                    "name": "Comunicación y PR",
+                    "lead": "Ana Belén Ramos",
+                    "size": 4
+                },
+                {
+                    "name": "Diseño y Contenido",
+                    "lead": "Marcos Silva",
+                    "size": 5
+                }
+            ]
+        }
+    },
+    "locations": {
+        "headquarters": {
+            "city": "Valencia",
+            "country": "España",
+            "functions": ["Dirección", "I+D", "Marketing", "Ventas"]
+        },
+        "production_facility": {
+            "city": "Paterna",
+            "country": "España",
+            "functions": ["Producción", "Control de Calidad", "Logística"]
+        },
+        "international_offices": [
+            {
+                "city": "Madrid",
+                "country": "España",
+                "functions": ["Ventas", "Marketing"]
+            },
+            {
+                "city": "Barcelona",
+                "country": "España",
+                "functions": ["Ventas"]
+            },
+            {
+                "city": "Lisboa",
+                "country": "Portugal",
+                "functions": ["Ventas", "Marketing"]
+            }
+        ]
+    },
+    "reporting_structure": {
+        "board_of_directors": {
+            "reports_to": null,
+            "direct_reports": ["CEO"]
+        },
+        "CEO": {
+            "reports_to": "board_of_directors",
+            "direct_reports": ["CTO", "COO", "CMO"]
+        },
+        "department_heads": {
+            "reports_to": "executive_team",
+            "direct_reports": ["team_leads"]
+        },
+        "team_leads": {
+            "reports_to": "department_heads",
+            "direct_reports": ["team_members"]
+        }
+    }
+} 

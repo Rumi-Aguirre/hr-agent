@@ -1,0 +1,62 @@
+{
+    "executive_team": {
+        "ceo": {
+            "name": "David García",
+            "background": "Ex-jugador profesional de pádel y emprendedor",
+            "vision": "Revolucionar el pádel con innovación y sostenibilidad"
+        },
+        "cto": {
+            "name": "Ana Martínez",
+            "background": "PhD en Ingeniería de Materiales",
+            "focus": "Innovación en materiales y diseño"
+        },
+        "coo": {
+            "name": "Carlos Rodríguez",
+            "background": "20 años en manufactura deportiva",
+            "focus": "Eficiencia operacional y calidad"
+        },
+        "cmo": {
+            "name": "María Torres",
+            "background": "15 años en marketing deportivo",
+            "focus": "Posicionamiento de marca y crecimiento"
+        }
+    },
+    "departments": {
+        "research_and_development": {
+            "reports_to": "cto",
+            "sub_teams": [
+                "Diseño de Producto",
+                "Investigación de Materiales",
+                "Prototipado"
+            ]
+        },
+        "production": {
+            "reports_to": "coo",
+            "sub_teams": [
+                "Fabricación",
+                "Control de Calidad",
+                "Logística"
+            ]
+        },
+        "sales": {
+            "reports_to": "cmo",
+            "sub_teams": [
+                "Ventas Directas",
+                "Distribución",
+                "Servicio al Cliente"
+            ]
+        },
+        "marketing": {
+            "reports_to": "cmo",
+            "sub_teams": [
+                "Marketing Digital",
+                "Relaciones Públicas",
+                "Eventos"
+            ]
+        }
+    },
+    "reporting_structure": {
+        "type": "matrix",
+        "description": "Estructura matricial que combina gestión por departamentos y proyectos"
+    }
+} 

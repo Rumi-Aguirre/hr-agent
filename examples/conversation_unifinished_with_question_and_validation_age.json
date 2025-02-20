@@ -1,0 +1,63 @@
+{
+    "is_complete": false,
+    "user_data": {
+        "first_name": "Laura",
+        "age": 20,
+        "preferred_schedule": null
+    },
+    "assigned_position": {
+        "team": "Marketing",
+        "role": "Especialista en Marketing Digital",
+        "department": "marketing"
+    },
+    "conversation": [
+        {
+            "type": "human",
+            "content": ""
+        },
+        {
+            "type": "ai",
+            "content": "¡Hola! Soy Alex, del departamento de RRHH de PadelTech Innovations, líderes en innovación de palas de pádel. ¿Me podrías decir tu nombre para comenzar?"
+        },
+        {
+            "type": "human",
+            "content": "me llamo laura"
+        },
+        {
+            "type": "ai",
+            "content": "¡Gracias, Laura! Es un placer conocerte. Antes de continuar, ¿te gustaría saber algo sobre nuestra empresa o el puesto? Estoy encantada de responder tus preguntas. ¿Cuál edad tienes entre 18 y 80 años para este puesto en el equipo de Marketing?"
+        },
+        {
+            "type": "human",
+            "content": "tengo 16 años"
+        },
+        {
+            "type": "ai",
+            "content": "¡Laura, gracias por confirmarme tu nombre! Apreciaría saber cuál es tu edad, para este puesto necesitamos alguien con más de 18 años y hasta 80. ¿Podrías confirmar tu edad nuevamente? Recuerda que el puesto en el que te hemos asignado es Especialista en Marketing Digital en el equipo de Marketing, dirigido por Miguel Torres."
+        },
+        {
+            "type": "human",
+            "content": "tengo facilitate años."
+        },
+        {
+            "type": "ai",
+            "content": "¡Claro! De hecho, te preguntaba por tu edad para este puesto. Necesitamos alguien con más de 18 y hasta 80 años de edad. Entiendo que me has dicho que tienes 16 años. ¿Podrías confirmarme tu edad nuevamente? Recuerda que el puesto en el que te hemos asignado es Especialista en Marketing Digital en el equipo de Marketing, dirigido por Miguel Torres."
+        },
+        {
+            "type": "human",
+            "content": "tengo 20 años."
+        },
+        {
+            "type": "ai",
+            "content": "¡Gracias Laura! Es un placer conocerte mejor. Para organizar tu horario de trabajo, necesito saber cuál es el momento en que prefieres trabajar, mañana o tarde?\n\n   ¿Me podrías decir cual de las dos opciones te gusta más para este puesto en el equipo de Marketing?\n\n   Recuerda que el puesto en el que te hemos asignado es Especialista en Marketing Digital y está dirigido por Miguel Torres.\n\n   También podrías preguntarme cualquier duda o pregunta que tengas sobre la empresa o el puesto, estoy encantada de ayudarte."
+        },
+        {
+            "type": "human",
+            "content": "¿cuál es el resumen financiero?"
+        },
+        {
+            "type": "ai",
+            "content": "¡Claro! Aquí tienes el resumen financiero de la empresa de palas de pádel para el año 2023 y las proyecciones para 2024. En 2023, las ventas totales fueron de €15.2M con un crecimiento anual del 45%, se vendieron 28,000 unidades, y los principales mercados fueron España (45%), Argentina (25%), México (15%) y otros (15%). La rentabilidad fue del margen bruto del 42%, EBITDA de €3.1M, margen neto del 15%, y ROI en I+D de 180%. Las inversiones incluyeron €2.5M en I+D, €1.8M en marketing, €1.2M en expansión internacional y €800K en sostenibilidad.\n\nPara el año 2024, las proyecciones son objetivos de ingresos de €22M con un crecimiento proyectado del 45%, margen bruto objetivo del 45% y EBITDA objetivo de €4.8M. Las inversiones planificadas incluyen el desarrollo de productos, como la línea Pro Series 2024 y una línea eco-friendly, con un presupuesto total de €1.5M para cada uno; además, se planean inversiones en nuevos mercados por un monto de €2M y en infraestructura por €1.5M.\n\nEspero que esto sea lo que buscabas! ¡Si tienes cualquier duda más, no dudes en preguntar!"
+        }
+    ]
+}

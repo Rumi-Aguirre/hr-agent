@@ -1,0 +1,256 @@
+{
+    "product_lines": {
+        "pro_series": {
+            "name": "Serie Profesional",
+            "description": "Palas de alto rendimiento para jugadores profesionales y avanzados",
+            "products": {
+                "pro_elite": {
+                    "name": "Pro Elite X1",
+                    "type": "Pala Profesional",
+                    "price": 349.99,
+                    "specifications": {
+                        "peso": "365-375g",
+                        "balance": "265-275mm",
+                        "forma": "Diamante",
+                        "marco": "Carbono 12K",
+                        "núcleo": "EVA High Recovery",
+                        "superficie": "Carbono 12K + Titanio",
+                        "grosor": "38mm"
+                    },
+                    "features": [
+                        "Máxima potencia",
+                        "Control preciso",
+                        "Tecnología anti-vibraciones",
+                        "Sistema de pesos ajustables"
+                    ],
+                    "target_player": "Profesional/Avanzado",
+                    "warranty": "2 años"
+                },
+                "pro_control": {
+                    "name": "Pro Control X1",
+                    "type": "Pala Profesional",
+                    "price": 329.99,
+                    "specifications": {
+                        "peso": "355-365g",
+                        "balance": "260-270mm",
+                        "forma": "Redonda",
+                        "marco": "Carbono 12K",
+                        "núcleo": "EVA Soft Performance",
+                        "superficie": "Carbono 12K + Kevlar",
+                        "grosor": "38mm"
+                    },
+                    "features": [
+                        "Máximo control",
+                        "Excelente manejabilidad",
+                        "Punto dulce amplio",
+                        "Absorción de vibraciones"
+                    ],
+                    "target_player": "Profesional/Avanzado",
+                    "warranty": "2 años"
+                }
+            }
+        },
+        "advanced_series": {
+            "name": "Serie Avanzada",
+            "description": "Palas para jugadores de nivel intermedio-avanzado",
+            "products": {
+                "advanced_power": {
+                    "name": "Advanced Power 2.0",
+                    "type": "Pala Avanzada",
+                    "price": 249.99,
+                    "specifications": {
+                        "peso": "350-360g",
+                        "balance": "265-275mm",
+                        "forma": "Lágrima",
+                        "marco": "Carbono 3K",
+                        "núcleo": "EVA Medium",
+                        "superficie": "Carbono 3K",
+                        "grosor": "38mm"
+                    },
+                    "features": [
+                        "Gran potencia",
+                        "Buen control",
+                        "Durabilidad superior",
+                        "Diseño moderno"
+                    ],
+                    "target_player": "Intermedio-Avanzado",
+                    "warranty": "2 años"
+                },
+                "advanced_control": {
+                    "name": "Advanced Control 2.0",
+                    "type": "Pala Avanzada",
+                    "price": 229.99,
+                    "specifications": {
+                        "peso": "345-355g",
+                        "balance": "260-270mm",
+                        "forma": "Redonda",
+                        "marco": "Carbono 3K",
+                        "núcleo": "EVA Soft",
+                        "superficie": "Carbono 3K",
+                        "grosor": "38mm"
+                    },
+                    "features": [
+                        "Control superior",
+                        "Buena potencia",
+                        "Excelente manejabilidad",
+                        "Diseño elegante"
+                    ],
+                    "target_player": "Intermedio-Avanzado",
+                    "warranty": "2 años"
+                }
+            }
+        },
+        "eco_series": {
+            "name": "Serie Eco",
+            "description": "Palas fabricadas con materiales sostenibles y reciclados",
+            "products": {
+                "eco_elite": {
+                    "name": "Eco Elite",
+                    "type": "Pala Sostenible",
+                    "price": 289.99,
+                    "specifications": {
+                        "peso": "355-365g",
+                        "balance": "265-275mm",
+                        "forma": "Diamante",
+                        "marco": "Fibra de bambú + Carbono reciclado",
+                        "núcleo": "Bio-EVA",
+                        "superficie": "Fibras naturales + Carbono reciclado",
+                        "grosor": "38mm"
+                    },
+                    "features": [
+                        "Materiales sostenibles",
+                        "Alto rendimiento",
+                        "Huella de carbono reducida",
+                        "Diseño eco-friendly"
+                    ],
+                    "sustainability_features": [
+                        "80% materiales reciclados",
+                        "Embalaje biodegradable",
+                        "Producción de bajo impacto"
+                    ],
+                    "target_player": "Avanzado",
+                    "warranty": "2 años"
+                }
+            }
+        },
+        "junior_series": {
+            "name": "Serie Junior",
+            "description": "Palas diseñadas específicamente para jugadores jóvenes",
+            "products": {
+                "junior_pro": {
+                    "name": "Junior Pro",
+                    "type": "Pala Junior",
+                    "price": 149.99,
+                    "specifications": {
+                        "peso": "300-310g",
+                        "balance": "250-260mm",
+                        "forma": "Redonda",
+                        "marco": "Fibra de vidrio + Carbono",
+                        "núcleo": "EVA Soft",
+                        "superficie": "Fibra de vidrio",
+                        "grosor": "36mm"
+                    },
+                    "features": [
+                        "Peso ligero",
+                        "Excelente control",
+                        "Diseño juvenil",
+                        "Durabilidad"
+                    ],
+                    "target_player": "Junior 12-16 años",
+                    "warranty": "2 años"
+                },
+                "junior_starter": {
+                    "name": "Junior Starter",
+                    "type": "Pala Junior",
+                    "price": 99.99,
+                    "specifications": {
+                        "peso": "280-290g",
+                        "balance": "245-255mm",
+                        "forma": "Redonda",
+                        "marco": "Fibra de vidrio",
+                        "núcleo": "EVA Soft",
+                        "superficie": "Fibra de vidrio",
+                        "grosor": "36mm"
+                    },
+                    "features": [
+                        "Muy ligera",
+                        "Fácil manejo",
+                        "Diseño atractivo",
+                        "Resistente"
+                    ],
+                    "target_player": "Junior 8-12 años",
+                    "warranty": "2 años"
+                }
+            }
+        }
+    },
+    "accessories": {
+        "protectors": {
+            "name": "Protectores",
+            "products": {
+                "premium_protector": {
+                    "name": "Protector Premium",
+                    "price": 29.99,
+                    "description": "Protector de marco de alta calidad",
+                    "features": [
+                        "Material resistente",
+                        "Fácil instalación",
+                        "Protección completa"
+                    ]
+                }
+            }
+        },
+        "grips": {
+            "name": "Grips",
+            "products": {
+                "pro_grip": {
+                    "name": "Pro Grip",
+                    "price": 19.99,
+                    "description": "Grip profesional con máxima absorción",
+                    "features": [
+                        "Alta absorción",
+                        "Tacto superior",
+                        "Larga duración"
+                    ]
+                },
+                "comfort_grip": {
+                    "name": "Comfort Grip",
+                    "price": 14.99,
+                    "description": "Grip confortable para uso regular",
+                    "features": [
+                        "Confort máximo",
+                        "Buen agarre",
+                        "Fácil instalación"
+                    ]
+                }
+            }
+        },
+        "bags": {
+            "name": "Bolsas",
+            "products": {
+                "pro_bag": {
+                    "name": "Bolsa Profesional",
+                    "price": 89.99,
+                    "description": "Bolsa para 6 Palas con compartimentos",
+                    "features": [
+                        "6 Palas",
+                        "Compartimento zapatos",
+                        "Bolsillo térmico",
+                        "Material resistente"
+                    ]
+                },
+                "basic_bag": {
+                    "name": "Bolsa Básica",
+                    "price": 49.99,
+                    "description": "Bolsa para 3 Palas",
+                    "features": [
+                        "3 Palas",
+                        "Bolsillo adicional",
+                        "Ligera",
+                        "Resistente al agua"
+                    ]
+                }
+            }
+        }
+    }
+} 

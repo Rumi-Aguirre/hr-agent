@@ -1,0 +1,215 @@
+{
+    "current_projects": {
+        "product_development": {
+            "eco_series": {
+                "name": "EcoTech Series",
+                "description": "Nueva línea de Palas fabricadas con materiales reciclados y sostenibles",
+                "status": "En desarrollo",
+                "start_date": "2024-01",
+                "target_completion": "2024-Q3",
+                "team_lead": "Pablo Moreno",
+                "key_objectives": [
+                    "Reducir huella de carbono en 40%",
+                    "Mantener rendimiento premium",
+                    "Precio competitivo"
+                ],
+                "milestones": [
+                    {
+                        "name": "Prototipo V1",
+                        "date": "2024-03",
+                        "status": "Completado"
+                    },
+                    {
+                        "name": "Pruebas de rendimiento",
+                        "date": "2024-05",
+                        "status": "En progreso"
+                    },
+                    {
+                        "name": "Producción piloto",
+                        "date": "2024-07",
+                        "status": "Pendiente"
+                    }
+                ]
+            },
+            "pro_line": {
+                "name": "Pro Performance 2.0",
+                "description": "Actualización de la línea profesional con tecnología de punta",
+                "status": "En desarrollo",
+                "start_date": "2024-02",
+                "target_completion": "2024-Q4",
+                "team_lead": "Dra. Isabel Santos",
+                "key_objectives": [
+                    "Mayor potencia y control",
+                    "Reducción de vibraciones",
+                    "Durabilidad mejorada"
+                ],
+                "milestones": [
+                    {
+                        "name": "Diseño final",
+                        "date": "2024-04",
+                        "status": "En progreso"
+                    },
+                    {
+                        "name": "Pruebas con atletas",
+                        "date": "2024-06",
+                        "status": "Pendiente"
+                    },
+                    {
+                        "name": "Lanzamiento",
+                        "date": "2024-10",
+                        "status": "Pendiente"
+                    }
+                ]
+            }
+        },
+        "market_expansion": {
+            "european_growth": {
+                "name": "Expansión Europea",
+                "description": "Entrada a nuevos mercados europeos",
+                "status": "En progreso",
+                "start_date": "2024-01",
+                "target_completion": "2024-Q4",
+                "team_lead": "Javier Pérez",
+                "target_markets": [
+                    "Francia",
+                    "Italia",
+                    "Alemania"
+                ],
+                "key_objectives": [
+                    "Establecer presencia en 3 nuevos países",
+                    "20% market share en cada mercado",
+                    "Red de distribución local"
+                ],
+                "milestones": [
+                    {
+                        "name": "Análisis de mercado",
+                        "date": "2024-02",
+                        "status": "Completado"
+                    },
+                    {
+                        "name": "Partnerships locales",
+                        "date": "2024-06",
+                        "status": "En progreso"
+                    },
+                    {
+                        "name": "Lanzamiento operaciones",
+                        "date": "2024-09",
+                        "status": "Pendiente"
+                    }
+                ]
+            }
+        },
+        "sustainability": {
+            "green_production": {
+                "name": "Producción Verde",
+                "description": "Transformación de la planta de producción hacia energía renovable",
+                "status": "En progreso",
+                "start_date": "2024-01",
+                "target_completion": "2025-Q2",
+                "team_lead": "Roberto Herrera",
+                "key_objectives": [
+                    "100% energía renovable",
+                    "Reducción 50% residuos",
+                    "Certificación ISO 14001"
+                ],
+                "milestones": [
+                    {
+                        "name": "Instalación solar",
+                        "date": "2024-Q2",
+                        "status": "En progreso"
+                    },
+                    {
+                        "name": "Sistema reciclaje",
+                        "date": "2024-Q4",
+                        "status": "Pendiente"
+                    },
+                    {
+                        "name": "Certificación",
+                        "date": "2025-Q2",
+                        "status": "Pendiente"
+                    }
+                ]
+            }
+        }
+    },
+    "planned_projects": {
+        "innovation": {
+            "smart_padel": {
+                "name": "SmartPadel",
+                "description": "Palas inteligente con sensores integrados",
+                "planned_start": "2024-Q4",
+                "estimated_duration": "18 meses",
+                "key_features": [
+                    "Análisis de golpes",
+                    "Feedback en tiempo real",
+                    "App companion"
+                ],
+                "required_resources": {
+                    "budget": "€2M",
+                    "team_size": 12,
+                    "key_skills": [
+                        "IoT",
+                        "Desarrollo móvil",
+                        "Diseño de sensores"
+                    ]
+                }
+            }
+        },
+        "market_development": {
+            "americas_expansion": {
+                "name": "Expansión Américas",
+                "description": "Entrada a mercados de América Latina",
+                "planned_start": "2025-Q1",
+                "target_markets": [
+                    "México",
+                    "Argentina",
+                    "Brasil"
+                ],
+                "required_resources": {
+                    "budget": "€5M",
+                    "team_size": 20,
+                    "infrastructure": [
+                        "Oficinas locales",
+                        "Centro distribución"
+                    ]
+                }
+            }
+        }
+    },
+    "research_initiatives": {
+        "materials": {
+            "bio_materials": {
+                "name": "Biomateriales Avanzados",
+                "description": "Investigación en materiales biodegradables para Palas",
+                "status": "En investigación",
+                "lead_researcher": "Dra. Isabel Santos",
+                "key_areas": [
+                    "Polímeros biodegradables",
+                    "Compuestos naturales",
+                    "Durabilidad"
+                ],
+                "collaborations": [
+                    "Universidad Politécnica de Valencia",
+                    "Instituto de Biomecánica"
+                ]
+            }
+        },
+        "performance": {
+            "aerodynamics": {
+                "name": "Aerodinámica Avanzada",
+                "description": "Estudio de nuevas geometrías para mejor rendimiento",
+                "status": "En investigación",
+                "lead_researcher": "Dr. Miguel Torres",
+                "key_areas": [
+                    "Simulación CFD",
+                    "Diseño paramétrico",
+                    "Pruebas en túnel de viento"
+                ],
+                "collaborations": [
+                    "Centro de Tecnología Deportiva",
+                    "Universidad Carlos III"
+                ]
+            }
+        }
+    }
+} 
