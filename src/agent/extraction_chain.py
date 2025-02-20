@@ -43,9 +43,7 @@ class InformationExtractionChain:
             
         try:
             result = self.chain.run(input=text)
-            print(f"Extraction result: {result}")
             extracted = self.parser.parse(result)
-            print(f"Extracted info: {extracted}")
             return self._validate_extracted_info(extracted, text)
             
         except Exception as e:

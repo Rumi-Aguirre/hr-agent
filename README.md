@@ -51,9 +51,85 @@ He dearrollado el agente en un Macbook pro con chip M2. Y aunque ha sido dockeri
 ## Ejemplos
 En la carpeta examples se encuentran ejemplos de conversaciones con el agente. Se trata del output que genera el agente con diferetes escenarios. Se han probado respuestas simpes, combinadas (dar varios datos a la vez), preguntas sobre la empresa, salidas tempranas de la conversación y datos erróneos.
 
+## Estructura del proyecto
+```
+hr-agent/
+├── src/
+│   ├── agent/
+│   │   ├── prompts/
+│   │   │   ├── conversation_prompt.py  # Prompt principal para el LLM
+│   │   │   ├── extraction_prompt.py    # Prompt para la extracción de información
+│   │   │   └── summary_prompt.py       # Prompt para la generación del resumen
+│   │   ├── conversation_manager.py     # Se encarga de gestionar la conversación, la memoria,
+│   │   │                                 generar las respuestas y devolver el historial de la conversación
+│   │   ├── extraction_chain.py         # Contiene la cadena de LangChain para la extracción de
+│   │   │                                 información del input del usuario
+│   │   ├── hr_agent.py                 # Lógica principal del agente. Recibe el input del usuario
+│   │   │                                 y gestiona el flujo de la conversación
+│   │   ├── position_manager.py         # Utiliza la bae de conocimiento para asignar (o no) un puesto al 
+│   │   │                                 candidato y devolver detalles de la posición
+│   │   ├── question_handler.py         # Utiliza la base de conocimiento para detectar y responder preguntas
+│   │   ├── state_manager.py            # Gestiona el estado de la conversación, los datos guardados y validados del usuario
+│   │   │                                 y la información faltante
+│   │   └── validators.py               # Validaciones de datos
+│   ├── audio/
+│   │   ├── recorder.py                 # Grabación de audio
+│   │   ├── speaker.py                  # Reproducción de audio
+│   │   └── transcriber.py              # Transcripción de audio usando Whisper
+│   │
+│   ├── config/
+│   │   └── settings.py                 # Configuraciones globales
+│   │
+│   └── main.py                         # Orquestador de la aplicación. Inicializa los componentes y ejecuta el flujo de la conversación
+│
+├── tests/
+│   ├── integration/                    # Tests de integración
+│   └── unit/                           # Tests unitarios
+│
+├── examples/                           # Ejemplos de conversaciones
+│   ├── conversation_1.json
+│   └── conversation_2.json
+│
+├── company_data/                       # JSONs y Markdowns para la ingesta de la base de conocimientos
+├── Dockerfile                          # Configuración de Docker
+├── requirements.txt                    # Dependencias del proyecto
+├── requirements-docker.txt             # Dependencias específicas para Docker
+└── run.py                              # Punto de entrada de la aplicación
+```
 
-Requisitos:
-ollama
-    - mistral
-    
-brew install ffmpeg
+### Piezas fundamentales
+#### Conversation Manager
+Gestiona la interacción con el LLM para generar respuestas y gestionar la memoria del agente para guardar contexto de lo que se ha hablado con el usuario
+
+#### Extraction Chain
+Se comunica con el LLM para extraer información del input del usuario y convertirla a un model con el que poder trabajar.
+
+#### State Manager
+Esta pieza se encarga de gestionar el estado de la conversación pero no en un sentido de memoria, sino de la información que se ha guardado del usuario. Para saber por donde dirigirla, si hay que terminarla o si hay que seguir recopilando datos. También añade contexto necesario para ayudar al LLM cuando hay errores de validación.
+
+#### Question handler
+Se encarga de detectar si el usuario tiene una pregunta sobre la empresa y se la responde con la información que hay en la base de conocimientos.
+
+He decidido meter una pieza como esta para emular un escenario mas complejo con lógica de negocio intermedia.
+
+
+#### Main.py
+Orquestador de la aplicación. Inicializa los componentes y ejecuta el flujo de la conversación
+
+### Flujo de la aplicación
+
+![Diagrama de flujo](./hr-flow.png)
+
+
+## Próximos pasos
+- Mejorar la velocidad de respuesta del LLM/usar modelos en cloud
+- Mejorar la precisión de la extracción de información
+- Mejorar la precisión de la búsqueda en la base de conocimientos
+- Mejorar la precisión de la generación de resumenes
+- Mejorar la precisión de la generación de respuestas
+- Mejorar la precisión de la generación de respuestas
+- Evitar que el LLM filtre parte del prompt al generar respuestas
+- Mejor análisis de la conversación
+- Aumentar la cobertura de tests
+- Multilenguaje
+- Detectar mejor pausas, silencios e interrupciones del usuario

@@ -2,13 +2,13 @@
     "is_complete": true,
     "user_data": {
         "first_name": "rumi",
-        "age": 30,
+        "age": 20,
         "preferred_schedule": "mañana"
     },
     "assigned_position": {
-        "team": null,
-        "role": null,
-        "department": null
+        "team": "Marketing",
+        "role": "Especialista en Marketing Digital",
+        "department": "marketing"
     },
     "conversation": [
         {
@@ -17,23 +17,23 @@
         },
         {
             "type": "ai",
-            "content": "¡Hola! Soy Alex, del departamento de RRHH de PadelTech Innovations, líder en innovación de Palas de pádel. ¿Me podrías decir tu nombre para comenzar?"
+            "content": "¡Hola! Soy Alex, del departamento de RRHH de PadelTech Innovations. Somos líderes en innovación de Palas de pádel. Te hemos asignado al puesto de Especialista en Marketing Digital en el equipo de Marketing. ¿Me podrías decir tu nombre para comenzar?"
         },
         {
             "type": "human",
-            "content": "me llamo rumi."
+            "content": "me llamo rumi"
         },
         {
             "type": "ai",
-            "content": " Gracias, Rumi. Antes de continuar, ¿te gustaría saber algo sobre nuestra empresa o el puesto? Estoy encantada de responder tus preguntas. Ahora, ¿podrías decirme cuántos años tienes?"
+            "content": "¡Hola Rumi! Gracias por tu respuesta. Antes de continuar, ¿podrías confirmarme tu edad? Por favor, recuerda que debes ser entre los 18 y 80 años para este puesto. Si tienes alguna pregunta sobre nuestra empresa o el puesto en particular, no dudes en preguntar. Estaré encantada de responderte."
         },
         {
             "type": "human",
-            "content": "tengo 30 años"
+            "content": "tengo 20 años"
         },
         {
             "type": "ai",
-            "content": "¡Hola Rumi! Me encanta que hayas podido unirte a la familia de PadelTech Innovations, líderes en innovación de palas de pádel. Ahora, ¿podrías decirme cuál es tu horario preferido para trabajar? Estoy aquí para ayudarte con todas tus preguntas."
+            "content": "¡Hola Rumi! Gracias por compartirme tu edad, siempre es una pregunta importante. Ahora me gustaría saber el horario que prefieres para trabajar, ¿mañana o tarde? Sabiendo esto te ayudaré a organizar tu turno más bien. Además, no dudes en preguntar sobre cualquier cosa relacionada con nuestra empresa o el puesto específico que ocuparás en Marketing. Estoy aquí para atenderte!"
         },
         {
             "type": "human",
@@ -41,8 +41,8 @@
         },
         {
             "type": "ai",
-            "content": "¡Muchas gracias, Rumi! Tengo toda la información necesaria para continuar con tu proceso de aplicación. Es un placer haberte ayudado y tenerte en nuestra familia de PadelTech Innovations. ¡Que tengas un excelente día y esperemos verte pronto!"
+            "content": "¡Genial! Gracias por confirmarme tu preferencia por el horario de la mañana, Rumi. Ahora que tengo toda la información necesaria, me alegro mucho de poder contarte que estamos muy emocionados en darte la bienvenida al equipo de Marketing en PadelTech Innovations, como Especialista en Marketing Digital. Por supuesto, si tienes alguna pregunta o duda, no dudes en preguntar. En este caso, puedes contactar a tu líder del equipo, Miguel Torres, por si hay algo que necesitas saber sobre el proyecto actual. ¡Esperamos verte en breve en nuestro equipo! ¡Que tengas un excelente día!"
         }
     ],
-    "summary": " RESUMEN EJECUTIVO:\nLa conversación se llevó a cabo entre un candidato llamado Rumi, de 30 años, con preferencia por trabajar por la mañana, y Alex, representante del departamento de RRHH de PadelTech Innovations. El candidato mostró interés por conocer más sobre la empresa y su puesto en específico, y respondió a las preguntas que le realizó Alex sobre su edad y preferencia horaria.\n\nDATOS DEL CANDIDATO:\n- Nombre: Rumi\n- Edad: 30 años\n- Horario preferido: Mañana\n\nPUESTO ASIGNADO:\n- Equipo: No disponible\n- Puesto: No disponible\n- Líder: Alex (del departamento de RRHH)\n\nINTERÉS Y PREGUNTAS:\n- El candidato mostró interés en conocer más sobre la empresa y su puesto asignado.\n- Respondiendo a las preguntas del representante de PadelTech Innovations, el candidato comunicó que tiene 30 años y prefiere trabajar por la mañana.\n\nOBSERVACIONES:\n- El candidato parece interesado y ameno en su interacción con Alex.\n- La comunicación fue clara y sin problemas.\n\nRECOMENDACIONES:\n- Se recomienda a Rumi que siga investigando sobre la empresa para tener una mejor comprensión de lo que se espera de él en el puesto asignado.\n- Es posible que se le solicite más información sobre su experiencia y cualificaciones para determinarse si es el candidato idóneo para el puesto.\n- Rumi puede considerar prepararse para una entrevista en persona o virtual en caso de ser seleccionado para avanzar en el proceso de aplicación."
+    "summary": " RESUMEN EJECUTIVO:\nLa conversación consistió en una entrevista automatizada para colocar al usuario Rumi, con 20 años de edad y preferencia por trabajar por la mañana, en un puesto de Especialista en Marketing Digital en el equipo de Marketing de PadelTech Innovations.\n\nDATOS DEL CANDIDATO:\n- Nombre: Rumi\n- Edad: 20\n- Horario preferido: Mañana\n\nPUESTO ASIGNADO:\n- Equipo: Marketing\n- Puesto: Especialista en Marketing Digital\n- Líder: Miguel Torres\n\nINTERÉS Y PREGUNTAS:\nRumi mostró interés en el puesto asignado. No hubo preguntas sobre la empresa o el puesto específico, pero se ofreció contactar al líder del equipo para obtener más información sobre el proyecto actual.\n\nOBSERVACIONES:\nLa actitud de Rumi fue profesional y cooperativa a lo largo de la interacción. La comunicación fue clara y efectiva.\n\nRECOMENDACIONES:\nA continuación, Rumi se comunique con su líder del equipo, Miguel Torres, para obtener información adicional sobre el proyecto actual. Si Rumi tiene alguna pregunta o duda en particular sobre el puesto o la empresa, no dude en preguntar a Alex, quien lo asistió en esta conversación."
 }

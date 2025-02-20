@@ -24,19 +24,25 @@ sudo apt install ffmpeg  # En Linux
 ````
 
 ## Instalación local
+Es necesario tener instalado Python 3.11.11 o superior
 
-1. Crear el entorno virtual:
+1. Instalar portaudio:
+````
+brew install portaudio
+````
+
+2. Crear el entorno virtual:
 ```bash
 python3.11 -m venv venv
 source venv/bin/activate
 ```
 
-2. Instalar las dependencias:
+3. Instalar las dependencias:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Ejecutar el agente:
+4. Ejecutar el agente:
 ```bash
 python run.py
 ```
